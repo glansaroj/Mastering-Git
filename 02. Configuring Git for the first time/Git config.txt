@@ -1,0 +1,25 @@
+
+___________________________________________________________________________________
+
+
+Configuring Git for the first time involves a few initial setup steps. 
+Here's a step-by-step guide to help you get started:
+
+
+(1) Install Git: First, you need to install Git on your system.
+
+(2) Configure your identity: Open a terminal or command prompt and configure 
+    your Git username and email.
+
+Use the following commands, replacing "Your Name" and "Your Email".
+
+
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
+
+___________________________________________________________________________________
+
+
