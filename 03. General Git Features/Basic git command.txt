@@ -1,0 +1,82 @@
+
+
+_____________________________________________________________________________________________
+
+General Git Features:
+
+
+(1) Initializing Git:
+ -> Initilize git to watch the folder on. 
+ -> Git creates a hidden folder to keep track of changes.
+
+✅ $ git init
+
+
+_______________________________________________________________________________________________
+
+
+(2) Staging files/Adding files to Git repo:
+   -> Staged files are files that are ready to be committed to the repository you are working on.
+   -> When you first add files to an empty repository, they are all untracked. 
+      To get Git to track them, you need to stage them, or add them to the staging environment.
+
+
+✅ $ git add <filename with extension>
+
+
+** Staging all files in a folder **
+
+✅ $ git add --all
+
+OR,
+
+✅ $ git add .
+
+
+_______________________________________________________________________________________________
+
+
+
+(3) Making a Commit:
+   -> Adding commits keep track of our progress and changes as we work.
+   -> When we commit, we should always include a message.
+
+✅ $ git commit -m “<Enter your message here>”
+
+
+
+
+
+** Git Commit without Stage **
+   -> Sometimes, when you make small changes, using the staging environment seems like a waste of time. 
+   -> It is possible to commit changes directly, skipping the staging environment.
+
+✅ $ git commit -a -m “<Enter your message here>”
+
+
+
+_______________________________________________________________________________________________
+
+
+(4) Status of files and log:
+   -> To checkout status of file
+
+✅ $ git status
+
+✅ $ git status --short  (File status in a more compact way)
+
+
+#Log of a file:
+ ->Log is used to view the history of commits for a repo
+
+✅ $ git log
+
+✅ $ git log --oneline
+
+
+
+_______________________________________________________________________________________________
+
+
+
+
