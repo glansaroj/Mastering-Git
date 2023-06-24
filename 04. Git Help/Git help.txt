@@ -1,0 +1,33 @@
+
+___________________________________________________________________________________
+
+Git Help:
+If you are having trouble remembering commands or options for commands, 
+you can use Git help.
+
+
+To See all the available options for the specific command:
+
+✅ $ git <command> -help
+
+
+
+To See all possible commands -
+
+✅ $ git help --all
+
+
+___________________________________________________________________________________
+
+
+Note: If you find yourself stuck in the list view 
+      SHIFT + G ---> to jump the end of the list. 
+      q  ---> to exit the view.
+
+
+
+
+
+
+
+

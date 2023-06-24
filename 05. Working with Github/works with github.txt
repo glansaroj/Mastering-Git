@@ -1,0 +1,113 @@
+
+___________________________________________________________________________________
+
+
+Working with Github:
+
+To get stated, Create a github account to create your remote repositories. 
+Now, create a new repo where we will be uploading our files from local repo.
+
+Local repository (repo.) ---> the repo. which is on our system
+remote repo ---> the one which is on other remote system/server, for eg. - GitHub, GitLab, Bitbucket, etc.
+
+
+___________________________________________________________________________________
+
+
+(1) Push local repo to GitHub:
+Copy the url or the link of the repo that we just created. 
+Paste the copied url in the below git command.
+
+✅ $ git remote add origin <paste copied URL here>
+
+
+
+#pushing our master branch to the origin URL (remote repo)
+and set it as the default remote branch.
+
+✅ $ git push --set-upstream origin master
+
+(Go back into GitHub and see that the repository has been updated.)
+
+
+
+** Pushing local repo to github after doing the above process at least once **
+First commit all the changes. Then push all the changes to our remote origin
+
+✅ $ git push origin
+
+
+___________________________________________________________________________________
+
+
+(2) Pull local repo from GitHub:
+Git pull is used to pull all changes from a remote repository into the branch we are working on. 
+It is a combination of fetch and merge. Use it to update your local Git.
+
+✅ $ git pull origin
+
+
+___________________________________________________________________________________
+
+
+(3) Pull branch from GitHub:
+First, check which branches we have and where are we working at the moment by ‘git branch’ command. 
+Since we do not have the new branch on out local Git which is to be pulled from the Github. 
+So, to see all local and remote branches, use -
+
+✅ $ git branch -a
+
+
+(For viewing only remote branches)
+✅ $ git branch -r
+
+
+___________________________________________________________________________________
+
+
+(4) Push branch to GitHub:
+
+First, create a new local branch which we will be pushing to Github. 
+Enter the command as, 
+
+✅ $ git checkout -b <branch name>
+
+
+Then, Commit all the uncommitted changes for all the files in this branch using 
+✅ $ git commit -a -m “<Message>”
+
+
+Now, push this branch from our local repo to Github using 
+✅ $ git push origin <branch name>
+
+
+___________________________________________________________________________________
+
+
+(5) Git clone from GitHub:
+We can clone a forked repo from Github on our local repo. A clone is a full copy of a repository, 
+including all logging and versions of files. 
+Move back to the original repository, and click the green "Code" button to get the URL to clone. 
+Copy the URL.
+
+Now, enter the following command to clone the
+copied repo onto your local machine -
+
+✅ $ git clone <copied URL>
+
+
+
+#To specify a specific folder to clone to:
+add the name of the folder after the repository URL, like this -
+
+✅ $ git clone <copied URL> <folder name>
+
+
+
+___________________________________________________________________________________
+
+
+
+
+
+
